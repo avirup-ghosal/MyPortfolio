@@ -1,4 +1,4 @@
-import logo from "D:/Portfolio/my-portfolio/src/assets/ag.webp"
+import logo from "../assets/ag.webp"
 import {FaLinkedin} from "react-icons/fa"
 import {FaGithub} from "react-icons/fa"
 import { FaBlog } from "react-icons/fa";
