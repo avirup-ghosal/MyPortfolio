@@ -20,7 +20,14 @@ const Hero=()=>{
                     <motion.h1 variants={container(0)} initial="hidden" animate="visible" className="pb-16 text-6xl font thin tracking-tight lg:mt-16 lg:text-6xl">Avirup Ghosal</motion.h1>
                     <motion.span variants={container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent text-3xl tracking-tight">Full Stack Developer</motion.span>
                 <motion.p variants={container(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">
-                  {HERO_CONTENT}  
+                  {HERO_CONTENT}
+                  <a
+                    href="/Avirup_Resume2.pdf"
+                    download
+                    className="inline-block px-4 py-2 mx-4 bg-violet-500 text-white rounded hover:bg-violet-700 transition"
+                  >
+                    Download Resume
+                </a>
                 </motion.p>
                 </div>
                 </div>
