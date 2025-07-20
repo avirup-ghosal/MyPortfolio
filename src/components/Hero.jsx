@@ -26,7 +26,7 @@ const Hero=()=>{
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <motion.img initial={{x:100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,delay:1.2}} src={code} alt="Kevin Rush" />
+                    <motion.img initial={{x:100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,delay:1.2}} src={code} alt="Avirup Ghosal" />
                 </div>
                 </div>
             </div>
